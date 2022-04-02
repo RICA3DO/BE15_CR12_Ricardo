@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url("../images/background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+      img:hover {
+        box-shadow: 0 0 2px 1px black;
+      }
+     
+     
+    
+     .heroimg{
+         background: url(../images/hero7.png) no-repeat center ;
+         background-size: cover;
+         height: 80vh;
+         position: relative;
+          text-align: center;
+          color: black;
+        
+     } 
+     .heroimg h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 4px 4px  white ;
+        font-size: 6vh;
+     }
+     
+     .nav > ul > li > a:hover{
+        background-color:white;
+    }
+    
